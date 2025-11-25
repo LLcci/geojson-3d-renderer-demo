@@ -27,7 +27,7 @@ import { GUI } from 'three/addons/libs/lil-gui.module.min.js'
 import { computed, ref } from 'vue'
 
 const params = ref({
-  url: 'https://geo.datav.aliyun.com/areas_v3/bound/100000_full_city.json',
+  url: 'https://geojson.cn/api/china/1.6.2/china.json',
   mercatorCenterX: 104.0,
   mercatorCenterY: 37.5,
   options: {
