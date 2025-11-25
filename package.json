@@ -18,8 +18,7 @@
   "dependencies": {
     "@tresjs/cientos": "^5.1.1",
     "@tresjs/core": "^5.1.1",
-    "@vueuse/core": "^14.0.0",
-    "d3": "^7.9.0",
+    "geojson-3d-renderer": "^1.0.0",
     "three": "^0.181.2",
     "vue": "^3.5.22"
   },
@@ -41,5 +40,10 @@
     "vite": "^7.1.11",
     "vite-plugin-vue-devtools": "^8.0.3",
     "vue-tsc": "^3.1.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "tres-geojson-3d": "link:C:/Users/Administrator/AppData/Local/pnpm/global/5/node_modules/tres-geojson-3d"
+    }
   }
 }

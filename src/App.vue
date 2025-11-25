@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import GeoJson from '@/components/GeoJson.vue'
+import { GeoJson, type Options } from 'geojson-3d-renderer'
 import { TresCanvas } from '@tresjs/core'
 import { OrbitControls, Stats, Html } from '@tresjs/cientos'
 import { GUI } from 'three/addons/libs/lil-gui.module.min.js'
